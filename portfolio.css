@@ -1,0 +1,551 @@
+.first {
+    background-color: rgb(47, 110, 116);
+    margin-top: 40px;
+    padding: 2px;
+    height: 4em;
+    width: 100%;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 10px;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 700;
+    color: rgb(2, 29, 37);
+    animation: portfolio 6s;
+}
+
+.first:hover {
+    transition: all 500ms;
+    transform: scale(1.2);
+    box-shadow: 0 0 20px rgb(0, 0, 0);
+    text-shadow: 0 0 20px white;
+}
+
+@keyframes portfolio {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+nav {
+    background-color: rgb(47, 110, 116);
+    border-radius: 20px;
+    height: 4em;
+    animation: portfolio 6s;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    letter-spacing: 10px;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+a:hover {
+    transition: all 500ms;
+    transform: scale(1.2);
+    box-shadow: 0 0 20px rgb(0, 0, 0);
+    text-shadow: 0 0 20px white;
+}
+
+.image-1 {
+    position: absolute;
+    height: 300px;
+    width: 250px;
+    border-radius: 100%;
+    top: 19em;
+    animation: image 3s ease-in-out;
+    animation-fill-mode: forwards;
+    cursor: pointer;
+    transition: all 500ms;
+    transform: rotate(180deg);
+}
+
+@keyframes image {
+    from {
+        opacity: 0;
+        left: 0;
+    }
+
+    to {
+        opacity: 1;
+        transition: all 500ms;
+        transform: translateX(40px);
+        left: 20%;
+    }
+}
+
+h1 {
+    position: absolute;
+    left: 27em;
+    top: 14em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    font-family: sans-serif;
+    background-color: transparent;
+    height: 5em;
+    width: 21em;
+    animation: name 3s ease-in-out;
+    animation-fill-mode: forwards;
+}
+
+@keyframes name {
+    from {
+        opacity: 0;
+        left: 0;
+    }
+
+    to {
+        opacity: 1;
+        transition: all 500ms;
+        transform: translateX(40px);
+        left: 40%;
+    }
+}
+
+.second {
+    position: absolute;
+    top: 17em;
+    left: 27.2em;
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 22px;
+    word-spacing: 2px;
+    letter-spacing: 2px;
+}
+
+#about {
+    border: 2px solid;
+    background-color: rgb(17, 53, 56);
+    color: white;
+    padding: 1em 0 0 0;
+    box-shadow: 0 0 30px black;
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    font-family: sans-serif;
+    position: absolute;
+    letter-spacing: 3px;
+    top: 19em;
+    left: 8em;
+    height: 128%;
+    width: 50%;
+    animation: image 3s ease-in-out;
+    animation-fill-mode: forwards;
+}
+
+.third {
+    color: rgb(255, 255, 255);
+    padding: 0 2em 0 2em;
+    font-family: sans-serif;
+    font-size: 25px;
+    position: absolute;
+    top: 5em;
+    letter-spacing: 3px;
+    word-spacing: 3px;
+}
+
+.third:hover {
+    text-shadow: 0 0 20px rgb(0, 0, 0);
+}
+
+#skills {
+    border: 2px solid;
+    background-color: rgb(9, 44, 47);
+    color: white;
+    padding-top: 1.5em;
+    box-shadow: 0 0 30px black;
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    font-family: sans-serif;
+    position: absolute;
+    letter-spacing: 3px;
+    top: 44em;
+    left: 8em;
+    height: 182%;
+    width: 50%;
+    animation: image 3s ease-in-out;
+    animation-fill-mode: forwards;
+}
+
+.python {
+    position: absolute;
+    top: 5em;
+    left: 4em;
+    height: 80px;
+    width: 80px;
+    animation: logos 2s infinite;
+}
+
+.fourth {
+    position: absolute;
+    font-size: 20px;
+    top: 14em;
+    left: 7.9em;
+    animation: logos 2s infinite;
+}
+
+.html {
+    position: absolute;
+    top: 5em;
+    left: 12em;
+    height: 80px;
+    width: 80px;
+    animation: logos 2s infinite;
+}
+
+.fifth {
+    position: absolute;
+    font-size: 20px;
+    top: 14em;
+    left: 24.5em;
+    animation: logos 2s infinite;
+}
+
+.css {
+    position: absolute;
+    top: 10em;
+    left: 4em;
+    height: 80px;
+    width: 80px;
+    animation: logos 2s infinite;
+}
+
+.six {
+    position: absolute;
+    font-size: 20px;
+    top: 24em;
+    left: 8.9em;
+    animation: logos 2s infinite;
+}
+
+.script {
+    position: absolute;
+    height: 80px;
+    width: 80px;
+    top: 10.1em;
+    left: 12em;
+    animation: logos 2s infinite;
+}
+
+.seven {
+    position: absolute;
+    font-size: 20px;
+    top: 24em;
+    left: 23em;
+    animation: logos 2s infinite;
+}
+
+.node {
+    position: absolute;
+    height: 80px;
+    width: 80px;
+    top: 14.9em;
+    left: 4.1em;
+    animation: logos 2s infinite;
+}
+
+.eight {
+    position: absolute;
+    font-size: 20px;
+    top: 34em;
+    left: 8.1em;
+    animation: logos 2s infinite;
+}
+
+.type {
+    position: absolute;
+    height: 80px;
+    width: 80px;
+    top: 14.9em;
+    left: 12em;
+    animation: logos 2s infinite;
+}
+
+.nine {
+    position: absolute;
+    font-size: 20px;
+    top: 34em;
+    left: 23em;
+    animation: logos 2s infinite;
+}
+
+@keyframes logos {
+    from {
+        transition: transform 1s;
+        transform: scale(0.8);
+    }
+
+    to {
+        transition: transform 1s;
+        transform: scale(1.2);
+        box-shadow: 0 0 50px black;
+        color: goldenrod;
+    }
+}
+
+.program {
+    position: absolute;
+    top: 20em;
+    left: 6em;
+}
+
+.visual {
+    position: absolute;
+    height: 80px;
+    width: 80px;
+    top: 24em;
+    left: 4.1em;
+    animation: logos 2s infinite;
+}
+
+.code {
+    position: absolute;
+    font-size: 20px;
+    top: 52.5em;
+    left: 8em;
+    animation: logos 2s infinite;
+}
+
+.turbo {
+    position: absolute;
+    height: 80px;
+    width: 80px;
+    top: 24em;
+    left: 12em;
+    animation: logos 2s infinite;
+}
+
+.turbo-c {
+    position: absolute;
+    font-size: 20px;
+    top: 52.5em;
+    left: 23.6em;
+    animation: logos 2s infinite;
+}
+
+h2 {
+    border: 2px solid;
+    position: absolute;
+    top: 77em;
+    left: 8em;
+    color: white;
+    padding-top: 1.5em;
+    background-color: rgb(9, 44, 47);
+    box-shadow: 0 0 30px black;
+    height: 110%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    font-family: sans-serif;
+    letter-spacing: 3px;
+}
+
+.coming {
+    position: absolute;
+    top: 77em;
+    left: 10.5em;
+    color: goldenrod;
+    font-size: 44px;
+    font-family: sans-serif;
+    letter-spacing: 4px;
+    transition: transform 1s;
+    transform: rotate(-25deg);
+}
+
+#social {
+    border: 2px solid;
+    position: absolute;
+    top: 100em;
+    left: 8em;
+    color: white;
+    padding-top: 1.5em;
+    background-color: rgb(9, 44, 47);
+    height: 130%;
+    width: 50%;
+    box-shadow: 0 0 30px black;
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    font-family: sans-serif;
+    letter-spacing: 3px;
+    animation: image 3s ease-in-out;
+    animation-fill-mode: forwards;
+}
+
+.contact {
+    position: absolute;
+    top: 7em;
+    padding-left: 2em;
+    font-size: 25px;
+    font-family: sans-serif;
+}
+
+.git {
+    position: absolute;
+    height: 80px;
+    width: 80px;
+    top: 10em;
+    left: 4em;
+    background-color: black;
+}
+
+.github {
+    position: absolute;
+    top: 25em;
+    left: 7.3em;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.link {
+    position: absolute;
+    height: 80px;
+    width: 80px;
+    top: 10em;
+    left: 11em;
+}
+
+.linked-in {
+    position: absolute;
+    top: 25em;
+    left: 20.5em;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.face {
+    position: absolute;
+    height: 80px;
+    width: 80px;
+    top: 15em;
+    left: 4em;
+}
+
+.facebook {
+    position: absolute;
+    top: 35em;
+    left: 6.5em;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.insta {
+    position: absolute;
+    height: 115px;
+    width: 115px;
+    top: 14.6em;
+    left: 10.5em;
+}
+
+.instagram {
+    position: absolute;
+    top: 35em;
+    left: 20em;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+footer {
+    border: 2px solid;
+    position: absolute;
+    padding: 20px 0 0 20px;
+    top: 132em;
+    background-color: darkslategray;
+    color: white;
+    width: 98%;
+    height: 27em;
+    font-size: 40px;
+    font-family: sans-serif;
+}
+
+form {
+    position: absolute;
+    top: 8em;
+    font-size: 20px;
+}
+
+#name {
+    border: 5px solid black;
+    height: 3em;
+    width: 40em;
+}
+
+#name:hover {
+    border: none;
+}
+
+.email {
+    position: absolute;
+    top: 0;
+    left: 38em;
+    width: 10em;
+}
+
+#email:hover {
+    border: none;
+}
+
+#email {
+    position: absolute;
+    border: 5px solid black;
+    height: 3em;
+    width: 40em;
+    left: 57em;
+    top: 1.8em;
+}
+
+.message {
+    position: absolute;
+    top: 6em;
+    left: 15em;
+}
+
+#message {
+    position: absolute;
+    border: 5px solid black;
+    width: 60em;
+    height: 30em;
+    box-sizing: border-box;
+    resize: none;
+}
+
+#message:hover {
+    border: none;
+}
+
+h4 {
+    position: absolute;
+    top: 41em;
+    left: 20em;
+    font-size: 20px;
+    font-family: sans-serif;
+    color: bisque;
+}
